@@ -1,10 +1,7 @@
 # Create your Costume class here
 # It should inherit from ActiveRecord::Base
 class Costume < ActiveRecord::Base
-  attr_accessor :created_at
-  def initialize(test)
-    self.created_at
-  end
+
 
   def created_at
     @created_at = Time.now.utc.to_datetime
