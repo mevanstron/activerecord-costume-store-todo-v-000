@@ -2,7 +2,7 @@
 # It should inherit from ActiveRecord::Base
 class Costume < ActiveRecord::Base
   attr_accessor :created_at
-  def initialize
+  def initialize(test)
     self.created_at
   end
 
