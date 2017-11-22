@@ -4,4 +4,8 @@ class Costume < ActiveRecord::Base
   def created_at
     Time.now.utc.to_datetime
   end
+
+  def updated_at
+    
+  end
 end
