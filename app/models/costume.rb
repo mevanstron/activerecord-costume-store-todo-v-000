@@ -6,6 +6,6 @@ class Costume < ActiveRecord::Base
   end
 
   def updated_at
-    
+
   end
 end
