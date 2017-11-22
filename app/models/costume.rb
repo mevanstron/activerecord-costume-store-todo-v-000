@@ -3,7 +3,7 @@
 class Costume < ActiveRecord::Base
   attr_accessor :created_at
   def initialize
-    self.created_at
+    self.created_at=
   end
 
   def created_at=
